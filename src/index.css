@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #0B0F14;
+  --color-accent: #3B82F6;
+  --color-secondary: #22C55E;
+  --color-soft-white: #E5E7EB;
+  --color-danger: #EF4444;
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-primary text-soft-white font-sans antialiased;
+  }
+}
+
+.glass {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10;
+}
+
+.neon-glow-blue {
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.neon-glow-green {
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.5);
+}

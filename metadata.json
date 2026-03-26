@@ -1,0 +1,5 @@
+{
+  "name": "FitWarrior",
+  "description": "A high-performance fitness tracker and trainer with AI coaching, nutrition logging, and social challenges.",
+  "requestFramePermissions": ["microphone"]
+}
